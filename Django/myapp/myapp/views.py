@@ -187,7 +187,3 @@ def about(request):
     """
     return HttpResponse(about_str)
 
-
-def news(request):
-    str = "this is a news section page"
-    return HttpResponse(str)
